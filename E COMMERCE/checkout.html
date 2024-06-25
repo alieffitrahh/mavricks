@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- Menyertakan file CSS -->
+    <link rel="stylesheet" href="C:\Users\User\Documents\E COMMERCE\style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="checkout">
+            <h2>Checkout</h2>
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <ul>
+                    <li>Product 1 - $799.99</li>
+                    <li class="total">Total: $799.99</li>
+                </ul>
+            </div>
+            <div class="payment-details">
+                <h3>Payment Details</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" required></textarea>
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                    <label for="expiration">Expiration Date:</label>
+                    <input type="text" id="expiration" name="expiration" placeholder="MM/YYYY" required>
+                    <label for="cvv">size:</label>
+                    <input type="text" id="size" name="size" required>
+                    <button type="submit" class="btn">Place Order</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mavricks</p>
+    </footer>
+</body>
+</html>
